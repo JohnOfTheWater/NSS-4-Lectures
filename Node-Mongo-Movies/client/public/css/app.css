@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Unlock);
+body {
+  background: #f5f1e8 url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-sand.png) repeat;
+  background: url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-gradient-sand.png) repeat-x 0 0, url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-sand.png) repeat;
+}
+.hide {
+  display: none;
+}
+.poster {
+  position: relative;
+  background-size: cover;
+  width: 270px;
+  height: 400px;
+  float: left;
+  margin: 0px 25px 25px 0px;
+  box-shadow: 3px 3px 12px #000000;
+}
+.title {
+  font-family: 'Unlock', cursive;
+  font-size: 30px;
+  color: black;
+  padding: 5px;
+  background-color: white;
+  opacity: 0.7;
+}
+.description {
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 9px;
+  color: black;
+  padding: 5px;
+  background-color: white;
+  opacity: 0.7;
+}
+.studio {
+  color: red;
+  font-size: 14px;
+}
+.actors {
+  color: red;
+  font-size: 14px;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 9px;
+  color: black;
+  background-color: white;
+  opacity: 0.7;
+  width: 100%;
+}
+.delete {
+  float: right;
+  font-size: 15px;
+  position: relative;
+  top: -80px;
+  right: 15px;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.edit {
+  float: right;
+  font-size: 14px;
+  position: relative;
+  top: 295px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}

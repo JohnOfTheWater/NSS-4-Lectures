@@ -1,0 +1,436 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic);
+
+body {
+   background: #f5f1e8 url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-sand.png) repeat;
+   background: url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-gradient-sand.png) repeat-x 0 0,url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-sand.png) repeat 0 0,#f5f1e8;
+ }
+ div#main {
+    width: 960px;
+    margin: 0px auto;
+ }
+ 
+ header {
+    border: 1px solid black;
+    width: 960px;
+    margin: 0px auto;
+ }
+  
+ h1 {
+    text-align: center;
+    font-size: 84px;
+    font-weight: 800;
+    color: #c13832;
+    margin: 0px;
+    letter-spacing: -0.05em;
+    font-family: 'Open Sans', sans-serif;
+ }
+  
+ h2 {
+    text-align: center;
+    font-size: 55px;
+    color: black;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 0px 40px 0px;
+ }
+
+ #d {
+ 	margin: 0px 0px 0px 109px;
+ }
+  
+ nav ul {
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+ }
+
+ nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+ }
+  
+ nav a {
+    text-decoration: none;
+    color: #484848;
+    padding: 0px 22px 0px 0px;
+ }
+  
+ nav a:hover {
+    text-decoration: underline;
+ }
+  
+ .clear {
+    clear: both;
+ }
+
+#top_box {
+	height: 210px;
+	display: none;
+	background-color: white;
+	color: #484848;
+}
+
+#top_box a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#top_fox {
+	margin: -8px 0px 0px 185px;
+	padding: 0px 0px 0px 0px;
+	background: url(http://mozorg.cdn.mozilla.net/media/img/tabzilla/promo-fxos.png);
+	width: 300px; height: 210px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+#top_fox h4 {
+	margin: 0px 0px 0px 0px;
+	padding: 23px 0px 0px 15px;
+	color: #fff;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+	letter-spacing: -3px;
+	font-size: 54px;
+	line-height: 46px
+}
+
+#top_fox p {
+	margin: 0px 0px 0px 0px;
+	padding: 23px 0px 0px 15px;
+	color: #fff;
+	text-align: left;
+	text-transform: ;
+	font-family: inherit;
+	font-size: 20px;
+	line-height: px;
+	line-height: -3px;
+}
+
+#top_fox a {
+	text-decoration: none;
+}
+
+#top_1list {
+	float: left;
+	margin: -179px 0px 0px 508px;
+	list-style: none;
+	border-right: 1px dashed black;
+	padding: 0px 12px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#top_1list a {
+	color: #484848;
+}
+
+#top_2list {
+	float: left;
+	margin: -179px 0px 0px 626px;
+	list-style: none;
+	border-right: 1px dashed black;
+	padding: 0px 22px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#top_2list a {
+	color: #484848;
+}
+
+#top_3list {
+	float: left;
+	margin: -179px 0px 0px 747px;
+	list-style: none;
+	border-right: 1px dashed black;
+	padding: 0px 34px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#top_3list a {
+	color: #484848;
+}
+
+#top_4list {
+	float: left;
+	margin: -179px 0px 0px 869px;
+	list-style: none;
+	border-right: 1px dashed black;
+	padding: 0px 55px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#top_4list a {
+	color: #484848;
+}
+
+#top_5list {
+	float: left;
+	margin: -179px 0px 0px 1026px;
+	list-style: none;
+	border-right: 1px dashed black;
+	padding: 0px 10px 0px 0px;
+}
+
+#top_5list a {
+	color: #484848;
+}
+
+#button {
+	padding: 0px 0px 0px 0px;
+	margin: -7px 210px 0px 0px;
+	float: right;
+}
+
+#hidebutton:hover #top_box {
+	display: block;
+}
+
+#box_1 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 245px; height: 378px;
+	
+	z-index: +10;
+	position: absolute;
+	background: #424f5a url(http://mozorg.cdn.mozilla.net/media/img/home/panel/lightbeam/bg-lightbeam.jpg) -80px 20px no-repeat;
+	background: url(http://mozorg.cdn.mozilla.net/media/img/home/panel/lightbeam/bg-lightbeam.jpg) -80px 20px no-repeat,#424f5a url(http://mozorg.cdn.mozilla.net/media/img/home/panel/lightbeam/bg-lightbeam.jpg) 0 0 no-repeat;
+}
+
+#box_1 h3 {
+	font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	margin: -36px 0px 0px 0px;
+}
+
+#diamond {
+	width: 300px; height: 300px;
+	margin: 12px 0px 0px -54px;
+	padding: 0px 0px 0px 0px;
+}
+
+#cover {
+	margin: 100px 0px 0px -58px;
+	z-index: 11;
+	float: left;
+	position: absolute;
+	top: 0px; left: 0px;
+	height: 119px; width: 57px;
+}
+
+#hidden1_box {
+	margin: 0px 0px 0px -1px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 627px; height: 378px;
+	display: none;
+	background: url(http://mozorg.cdn.mozilla.net/media/img/home/panel/lightbeam/bg-lightbeam.jpg) 0 0 no-repeat;
+}
+
+#hidden1_box h4 {
+	font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+	margin: -274px 0px 0px 272px;
+}
+
+#blue {
+	color: #0096dd;
+}
+
+#xxx {
+	font-size: 20px;
+}
+
+#hidden1_box a {
+    text-decoration: none;
+    color: #0096dd;
+}
+
+#hidden_d {
+	width: 300px; height: 300px;
+	margin: 13px 0px 0px -47px;
+	padding: 0px 0px 0px 0px;
+}
+
+#box_1:hover #hidden1_box {
+	display: block;
+}
+
+#box_1:hover h3 {
+	display: none;
+}
+
+#box_1:hover #diamond {
+	display: none;
+}
+
+#box_2 {
+	margin: 0px 0px 0px 246px;
+	padding: 0px 0px 0px 0px;
+	width: 245px; height: 378px;
+	background-color: #0095dd;
+	background: #0095dd url(http://mozorg.cdn.mozilla.net/media/img/home/panel/firefoxos/firefoxos-fox.png?04-11-13) -100px -100px no-repeat;
+	float: left;
+	position: absolute;
+}
+
+#fox {
+	margin: 0px 0px 0px -93px;
+	width: 250px; height: 300px;
+}
+
+#cover2 {
+	margin: 0px 0px 0px 0px;
+	float: left;
+	position: absolute;
+	top: -132px; left: -110px;
+	width: 200px; height: 132px;
+	z-index: 2;
+}
+
+#box_2 h3 {
+	font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	margin: 295px 0px 0px 0px;
+}
+
+#hidden2_box {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	width: 627px; height: 378px;
+	display: none;
+	background-color: url(http://mozorg.cdn.mozilla.net/media/img/home/panel/lightbeam/bg-lightbeam.jpg);
+}
+
+#hidden_fox {
+	margin: -1px 0px 0px 1px;
+	padding: 0px 0px 0px 0px;
+	width: 250px; height: 300px;
+}
+
+#hidden2_box h4 {
+	font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+	color: #fff;
+	text-align: left;
+	margin: -232px 0px 0px 252px;
+	font-size: 20px;
+}
+
+#hidden2_box a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#foxp {
+	font-size: 16px;
+}
+
+#box_3 {
+	margin: 0px 0px 0px 489px;
+	float: left;
+	width: 245px; height: 378px;
+	
+	background: #e1ebed url(http://mozorg.cdn.mozilla.net/media/img/home/panel/webmaker/logo-webmaker.png) -95px 15px no-repeat;
+}
+
+#box_3 img {
+	margin: 17px 0px 0px -43px;
+	width: 290px; height: 290px;
+}
+
+#box_3 h3 {
+	font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+	text-transform: uppercase;
+	color: red;
+	text-align: center;
+	margin: 297px 0px 0px 0px;
+}
+
+#box_4 {
+	margin: -379px 0px 0px 735px;
+	float: left;
+	width: 245px; height: 378px;
+	
+	background: #0062a9 url(http://mozorg.cdn.mozilla.net/media/img/home/panel/mdn/logo-mdn.svg) -25px 40px no-repeat;
+background: url(http://mozorg.cdn.mozilla.net/media/img/home/panel/mdn/logo-mdn.svg) -25px 40px no-repeat,#0062a9 url(http://mozorg.cdn.mozilla.net/media/img/home/panel/mdn/bg-grid.png?01-09-14);
+}
+
+#box_4 img {
+	margin: 17px 0px 0px 5px;
+	width: 234px; height: 290px;
+}
+
+#box_4 h3 {
+	font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+	text-transform: uppercase;
+	color: #525252;
+	text-align: center;
+	margin: 296px 0px 0px 0px;
+}
+
+#level3 {
+	background: white;
+	margin: 0px -194px 0px -193px;
+}
+
+#logo {
+	margin: 22px 0px 0px 192px;
+	float: left;
+}
+
+#level3h3 {
+	margin: 43px 0px 0px 33px;
+	border-right: 1px dashed grey;
+	padding: 0px 30px 0px 0px;
+	float: left;
+	font-size: 40px;
+    letter-spacing: -0.05em;
+    color: #666;
+    font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+}
+
+#different {
+	margin: 43px 0px 0px 33px;
+	padding: 0px 30px 0px 0px;
+	float: left;
+	font-size: 40px;
+    letter-spacing: -0.05em;
+    color: #999;
+    font-family: 'Open Sans ExtraBoldItalic', sans-serif;
+}
+
+#downbutton {
+	margin: 30px 0px 0px 31px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+
+#gradient {
+	width: 960px; height: 350px;
+	border: 1px solid black;
+	float: left;
+	background: -webkit-linear-gradient (top, black 50%, white 57%);
+	opacity: 0.7;
+	margin: 0px 0px 0px 0px;
+}
+
+.accordian h3 {
+  text-shadow: 1px 1px 0px white, -1px -1px 4px white;
+}
+
+
+
+
+	background: linear-gradient(to top,rgba(66,79,90,0.95) 50%,rgba(66,79,90,0.8) 65%,rgba(66,79,90,0) 100%);

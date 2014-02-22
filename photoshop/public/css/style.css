@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=The+Girl+Next+Door);
+
+#colors {
+  width: 80px; min-height: 652px;
+  float: left;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border-top: 1px solid #757575;
+  border-bottom: 1px solid #757557;
+  border-left: 1px solid #757557;
+  background-color: #6a7495;
+}
+
+#add-color {
+  width: 78px; height:23px;
+  float: left;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 0px 0px 0px 8px;
+  padding: 0px 0px 0px 0px;
+  font-family:  'Open Sans' , sans-serif;
+  background-color: #e3e3e3;
+  text-shadow: 1px 1px #6a7495, 0px 1px #6a7495;
+  box-shadow: -1px 2px 0px grey;
+}
+
+#addcolorBox {
+  border-right: 1px solid #757557;
+  border-bottom: 1px solid #757557;
+  border-top: 1px solid #757557;
+  border-left: 1px solid #e3e3e3;
+  background-color: #6a7495;
+  margin: 2px 0px -64px 79px;
+  padding: 0px 0px 0px 0px;
+  width: 108px; height: 61px;
+  font-family:  'Open Sans' , sans-serif;
+}
+.color {
+  width: 40px; height: 40px;
+  float: left;
+  border: 2px solid black;
+  margin: 10px 10px 0px 10px;
+  padding: 0px 0px 0px 0px;
+}
+
+.selected {
+  border: 2px solid black;
+  width: 40px; height: 40px;
+  border-radius: 50px;
+}
+
+.clear {
+  clear: both;
+}
+
+.pixel {
+  width: 5px; height: 5px;
+  float: left;
+  border: 1px solid black;
+}
+
+.BigPixel {
+  width: 8px; height: 8px;
+  float: left;
+  border: 1px solid black;
+}
+
+.BiggerPixel {
+  width: 12px; height: 12px;
+  float: left;
+  border: 1px solid black;
+}
+
+#drawingBox {
+  width: ; min-height: 588px;
+  border: 2px solid black;
+  margin: 39px 0px 0px 83px;
+  padding: 0px 0px 0px 0px;
+}
+
+#number-text {
+  float:left;
+  width: 93px;
+  border: 1px solid black;
+  margin: -24px 0px 0px 7px;
+  padding: 0px 0px 0px 0px;
+}
+#addpixelBox {
+  border-right: 1px solid #757557;
+  border-bottom: 1px solid #757557;
+  border-top: 1px solid #757557;
+  border-left: 1px solid #e3e3e3;
+  background-color: #6a7495;
+  margin: 1px 0px -38px 189px;
+  padding: 0px 0px 0px 0px;
+  width: 448px; height: 61px;
+}
+#add-pixels {
+  width: 78px; height:23px;
+  float: left;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 2px 0px 0px 16px;
+  padding: 0px 0px 0px 0px;
+  font-family:  'Open Sans' , sans-serif;
+  text-shadow: 1px 1px #6a7495, 0px 1px #6a7495;
+  box-shadow: -1px 2px 0px grey;
+}
+
+#NormalPixels {
+  width: 40px; height:40px;
+  float: left;
+  margin: -6px 0px 0px 8px;
+  padding: 0px 0px 0px 0px;
+}
+
+#add-BigPixels {
+  width: 55px; height:55px;
+  float: left;
+  margin: -19px 0px 0px 6px;
+  padding: 0px 0px 0px 0px;
+}
+
+#add-BiggerPixels {
+  width: 70px; height: 70px;
+  float: left;
+  margin: -33px 0px 0px 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+#resetPixels {
+  width: 72px; height:60px;
+  float: left;
+  margin: -63px 0px 0px 296px;
+  padding: 0px 0px 0px 0px;
+}
+
+#eraser {
+  width: 50px; height:50px;
+  float: left;
+  margin: -59px 0px 0px 382px;
+  padding: 0px 0px 0px 0px;
+}
+
+#erase {
+  background-color: white;
+}
+
+#color-text {
+  width: 93px;
+  border: 1px solid black;
+  margin: 4px 0px 6px 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+#photoshop {
+  border-right: 1px solid #757557;
+  border-bottom: 1px solid #757557;
+  border-top: 1px solid #757557;
+  border-left: 1px solid #e3e3e3;
+  background-color: #6a7495;
+  margin: -1px 0px -38px 449px;
+  padding: 0px 0px 0px 0px;
+  width: 709px; height: 61px;
+}
+#photoshop h3{
+  text-transform: uppercase;
+  margin: 11px 0px 0px 31px;
+  padding: 0px 0px 0px;
+  font-size:55px;
+  color: red;
+  font-family: 'The Girl Next Door', cursive;
+  text-shadow: 1px 1px #e3e3e3, 1px 1px #e3e3e3;
+}  

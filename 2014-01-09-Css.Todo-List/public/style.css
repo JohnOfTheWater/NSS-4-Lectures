@@ -1,0 +1,52 @@
+* {
+  font-family: monospace;
+}
+
+h1 {
+  color: red;
+}
+
+div {
+  color:green;
+}
+
+a[href]{
+  border: 1px solid black;
+}
+
+a[href="Google.com"] {
+  background-color: yellow;
+}
+
+#first-name {
+  color: purple;
+}
+
+#last-name {
+  background-color: orange;
+  color: red;
+}
+
+.name {
+  font-size: 13px;
+}
+
+#one {
+  border: 1px dashed blue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.x1 {
+  color:red;
+
+}
+
+div#one p {
+  background-color: purple;
+}
+
+div#one > p{
+  letter-spacing: 4px;
+}
+

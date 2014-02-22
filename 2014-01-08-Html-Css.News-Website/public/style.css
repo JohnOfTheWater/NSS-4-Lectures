@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Spicy+Rice);
+@import url(http://fonts.googleapis.com/css?family=Allan);
+  
+body {
+  background: url(/images/BlueTile.jpg);
+}
+
+header {
+  color: red;
+  border: 1px dashed green;
+  font-family: 'Spicy Rice', cursive;
+  font-size: 20px;
+}
+
+header h1 {
+  margin-left: 20px;
+
+}
+
+p {
+  font-family: 'Allan', cursive;
+  color: grey;
+  font-size: 22px;
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+
+a {
+  border: 1px solid blue;
+  text-decoration: none;
+  background-color: yellow;
+  padding: 3px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  color: red;
+}
+
+a:hover {
+  background-color: red;
+  color: yellow;
+}
+
+

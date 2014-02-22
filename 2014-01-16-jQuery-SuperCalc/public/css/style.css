@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+
+body {
+  font-family:  'Open Sans' , sans-serif;
+  background: #f5f1e8 url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-sand.png) repeat;
+  background: url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-gradient-sand.png) repeat-x 0 0,url(http://mozorg.cdn.mozilla.net/media/img/sandstone/bg-sand.png) repeat 0 0,#f5f1e8;
+}
+
+h1 {
+  margin: 0px 0px 42px 44px;
+  text-shadow: 0px 1px black, -1px -1px black;
+  font-size: 47px;
+  color: silver;
+}
+
+.number {
+  margin:5px 5px 5px 5px;
+  padding:0px 0px 0px 0px;
+  float: left;
+  border: 1px solid black;
+  width: 60px; height: 60px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.55);
+  background: url(https://scontent-a-ord.xx.fbcdn.net/hphotos-ash3/t1/1012235_717623241590208_808722554_n.jpg);
+  border-radius: 15px;
+  font: bold 2.2em/72px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  box-shadow: 0 2px 0 grey;
+  text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+
+#mainButtons {
+  margin: 0px 0px 0px 60px;
+  padding: 60px 0px 0px 0px;
+  border: 2px solid black;
+  width: 287px; height: 360px;
+  background: url(http://images2.alphacoders.com/238/238800.png);
+  box-shadow: 0 2px 0 grey;
+}
+
+#answer {
+  margin: 18px -2px -2px 60px;
+  padding:0px 0px 0px 0px;
+  border: 2px solid black;
+  max-width: 285px; height: 0px;
+  text-align: right;
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
+  background: url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-frc3/t1/1526583_716826868336512_314176792_n.jpg);
+}
+
+#mainOperators {
+  margin: -366px 0px 0px 274px;
+  padding:0px 0px 0px 0px;
+}
+#mainOperators *{
+  border: 1px solid black;
+  margin:10px 5px 5px 5px;
+  width: 60px; height: 60px;
+  padding:0px 0px 0px 0px;
+  background: url(https://scontent-a-ord.xx.fbcdn.net/hphotos-ash3/t1/1012235_717623241590208_808722554_n.jpg);
+  border-radius: 15px;
+  font: bold 2.2em/72px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  text-align: center;
+  box-shadow: 0 2px 0 grey;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+#clearButton {
+  border: 1px solid black;
+  margin: -348px 0px 0px 138px;
+  width: 70px; height: 60px;
+  float: left;
+  background: url(https://scontent-a-ord.xx.fbcdn.net/hphotos-ash3/t1/1012235_717623241590208_808722554_n.jpg);
+  border-radius: 15px;
+  font-size: 29px;
+  text-align: center;
+  box-shadow: 0 2px 0 grey;
+  font: bold 2.2em/59px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+#push {
+  border: 1px solid black;
+  margin: -348px 0px 0px 221px;
+  width: 120px; height: 60px;
+  float: left;
+  background: url(https://scontent-a-ord.xx.fbcdn.net/hphotos-ash3/t1/1012235_717623241590208_808722554_n.jpg);
+  border-radius: 15px;
+  font: bold 2.2em/72px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  text-align: center;
+  box-shadow: 0 2px 0 grey;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+#queue {
+  margin: -347px 0px 0px 349px;
+  padding:0px 0px 0px 0px;
+  border: 2px solid black;
+  min-width: 0px; min-height: 300px;
+  float: left;
+  list-style: none;
+  font-family: 'Audiowide', cursive;
+  font-size: 24px;
+  background: url(https://scontent-b.xx.fbcdn.net/hphotos-prn1/1600983_716828198336379_751744163_n.jpg);
+}
+
+#reverse {
+  margin: -67px 0px 0px 209px;
+  padding:0px 0px 0px 0px;
+  float: left;
+  border: 1px solid black;
+  width: 60px; height: 60px;
+  text-align: center;
+  font: bold 2.2em/72px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  background: url(https://scontent-a-ord.xx.fbcdn.net/hphotos-ash3/t1/1012235_717623241590208_808722554_n.jpg);
+  border-radius: 15px;
+  box-shadow: 0 2px 0 grey;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+#sum {
+  margin: 4px 0px 0px 215px;
+  padding:0px 0px 0px 0px;
+  float: left;
+  border: 1px solid black;
+  width: 120px; height: 60px;
+  text-align: center;
+  font: bold 2.2em/72px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  background: url(https://scontent-a-ord.xx.fbcdn.net/hphotos-ash3/t1/1012235_717623241590208_808722554_n.jpg);
+  border-radius: 15px;
+  box-shadow: 0 2px 0 grey;
+  color: rgba(0, 0, 0, 0.55);
+}
+#power {
+  margin: 4px 0px 0px -262px;
+  padding:0px 0px 0px 0px;
+  float: left;
+  border: 1px solid black;
+  width: 120px; height: 60px;
+  text-align: center;
+  font: bold 2.2em/72px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  background: url(https://scontent-a-ord.xx.fbcdn.net/hphotos-ash3/t1/1012235_717623241590208_808722554_n.jpg);
+  border-radius: 15px;
+  box-shadow: 0 2px 0 grey;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+footer {
+  margin:80px 0px 0px 64px;
+}
+#switchOn {
+  margin: -348px 5px 5px -271px;
+  padding:0px 0px 0px 0px;
+  float: left;
+  width: 60px; height: 60px;
+  text-align: center;
+  font-size: 41px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+#switchOff {
+  margin: -348px 5px 5px -271px;
+  padding:0px 0px 0px 0px;
+  float: left;
+  width: 60px; height: 60px;
+  text-align: center;
+  font-size: 41px;
+  border-radius: 50px;
+  border: 1px solid black;
+}

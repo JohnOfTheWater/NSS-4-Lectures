@@ -1,0 +1,45 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class='no-js', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title ToDo-App
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(src='/js/vendor/modernizr.js')
+  body
+    h1 ToDo-App
+
+    #controls
+      input#name(type='text', placeholder='name...', autofocus='true')
+      input#value(type='text', placeholder='value...')
+      button.tiny#save Save
+
+    #priority
+      #tname Name
+      #tvalue Value
+      #delete Delete
+      #edit -----
+
+    #todoList
+      #isComplete Completed
+      #todoName Name
+      #dueDate Due Date
+      #Priority Priority
+      #tags Tags
+      #tags ModifyZZ
+
+    #todoControls
+      input#nameTodo(type='text', placeholder='name...', autofocus='true')
+      select#priorityName
+      input#dateDue(type='text', placeholder='MM/DD/YYYY')
+      input#tagsName(type='text', placeholder='fun, house, work')
+      button.tiny#saveTodo Add
+
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/vendor/foundation.js')
+    script(src='/js/vendor/lodash.js')
+    script(src='/js/source/main.js')
+

@@ -1,0 +1,155 @@
+body {
+  background: url('http://www.a-gassociates.com/images/background.jpg');
+  background-size: cover;
+}
+#controls {
+  padding: 10px 0px 0px 10px;
+  box-shadow: 10px 0px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  margin: 30px 0px 0px 30px;
+  width: 332px;
+  height: 112px;
+  float: left;
+}
+#name {
+  width: 200px;
+}
+#value {
+  width: 200px;
+}
+#save {
+  width: 80px;
+  height: 50px;
+  margin: -85px 20px 0px 20px;
+  float: right;
+  font-size: 15px;
+}
+#priority {
+  padding: 5px 0px 0px 30px;
+  min-width: 465px;
+  min-height: 130px;
+  font-size: 20px;
+  margin: 141px 0px 0px -332px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  float: left;
+}
+#tname {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+#tvalue {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+#delete {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+#edit {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+.name {
+  margin: 10px 0px 0px 0px;
+}
+.value {
+  margin: 10px 0px 0px 0px;
+}
+.delete {
+  width: 15px;
+  border: 1px solid white;
+  margin: 7px 0px 0px 15px;
+  padding: 1px 1px 1px 1px;
+  background-color: #B22222;
+  color: white;
+}
+.rename {
+  margin: -5px 0px 0px -120px;
+  width: 100%;
+  float: left;
+}
+.edit {
+  border: 1px solid white;
+  margin: 10px 0px 0px 0px;
+  padding: 1px 1px 1px 1px;
+  background-color: #B22222;
+  color: white;
+}
+#todoList {
+  padding: 5px 0px 0px 30px;
+  min-width: 465px;
+  min-height: 130px;
+  font-size: 20px;
+  margin: 50px 0px 0px 300px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  float: left;
+}
+#isComplete {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+#todoName {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+#dueDate {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+#Priority {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+#tags {
+  margin: 5px 45px 0px 0px;
+  float: left;
+}
+#todoControls {
+  padding: 10px 0px 0px 10px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  margin: 200px 0px 0px -730px;
+  width: 332px;
+  height: 160px;
+  float: left;
+}
+#nameTodo {
+  margin: 0px 0px 0px 0px;
+  width: 150px;
+  float: left;
+}
+#dateDue {
+  margin: 50px 0px 12px 0px;
+  width: 109px;
+}
+#priorityName {
+  margin: 0px 0px 0px 10px;
+  width: 150px;
+  float: left;
+}
+#tagsName {
+  margin: -49px 0px 0px 120px;
+  width: 190px;
+}
+#saveTodo {
+  width: 310px;
+  height: 50px;
+  margin: 5px 10px 0px 0px;
+  float: right;
+  font-size: 15px;
+}
+.x {
+  width: 15px;
+  border: 1px solid white;
+  padding: 1px 1px 1px 1px;
+  background-color: #B22222;
+  color: white;
+  margin: 0px 0px 0px 2px;
+  float: left;
+}

@@ -1,0 +1,63 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class='no-js', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Imdb
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(src='/js/vendor/modernizr.js')
+  body
+    .row
+      .small-12.columns
+        h1 -Imdb- Movie Database
+    .row
+      .small-12.columns
+        button.radius.small.alert#toggle-form Toggle Form
+    .row
+      .small-12.columns
+        form.hide#movie
+          fieldset
+            legend Movie
+            .row
+              .small-3.columns
+                label Name
+                  input#name(type='text', name='name', autofocus=true)
+              .small-3.columns
+                label Rating
+                  input#rating(type='text', name='rating')
+              .small-3.columns
+                label Running Time
+                  input#length(type='text', name='length')
+              .small-3.columns
+                label Release Year
+                  input#year(type='text', name='year')
+            .row
+              .small-3.columns
+                label Studio
+                  input#studio(type='text', name='studio')
+              .small-3.columns
+                label Director
+                  input#director(type='text', name='director')
+              .small-6.columns
+                label Poster
+                  input#poster(type='text', name='poster')
+            .row
+              .small-12.columns
+                label Actors
+                  input#actors(type='text', name='actors')
+            .row
+              .small-3.columns
+                button#saveMovie.expand.tiny.radius Save Movie
+                button#updateMovie.expand.tiny.radius Update Movie
+              .small-9.columns
+    .row
+      .small-12.columns
+        #movies
+
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/vendor/foundation.js')
+    script(src='/js/vendor/lodash.js')
+    script(src='/js/source/main.js')

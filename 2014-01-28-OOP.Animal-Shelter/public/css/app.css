@@ -1,0 +1,43 @@
+body {
+  background-color: #ccdff0;
+}
+#add-photo {
+  position: relative;
+  top: 24px;
+}
+#add-animals {
+  position: relative;
+  top: 24px;
+}
+#desc {
+  height: 200px;
+}
+.newAnimal {
+  width: 216px;
+  height: 200px;
+  float: left;
+  margin: 0px 0px 12px 12px;
+  border: 2px solid #e3e3e3;
+}
+#table {
+  width: 100%;
+}
+fieldset {
+  border: solid 3px #0E5272;
+}
+.prefix {
+  position: relative;
+  top: 22px;
+  left: 0px;
+}
+#photo {
+  width: 160px;
+  position: relative;
+  top: 0px;
+  left: -30px;
+}
+td {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}

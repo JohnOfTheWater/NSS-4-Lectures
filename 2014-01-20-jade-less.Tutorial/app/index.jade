@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Jade Tutorial
+    link(rel='stylesheet', href='css/style.css')
+    script(src='/js/vendor/jquery-1.10.2.js')
+    script(src='/js/source/main.js')
+  body
+    header
+      h1 Grumpy Cat!!!
+      img(src='http://sibdepo.ru/resize/265x0x0x0x90/upload/iblock/80b/80bbe36b6d72dcc2d585a5a48cb46e47.jpg')
+    #section1
+      ul
+        li a
+        li b
+        li c
+       - var firstName = 'Giovanni';
+       h2= firstName
+       - for(var i=0; i<100;i++)
+         h3 hello
+           h1 ciao
+
+           h1.
+             ciao
