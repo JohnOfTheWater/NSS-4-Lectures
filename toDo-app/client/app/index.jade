@@ -12,31 +12,43 @@ html(class='no-js', lang='en')
   body
     h1 ToDo-App
 
-    #controls
-      input#name(type='text', placeholder='name...', autofocus='true')
-      input#value(type='text', placeholder='value...')
-      button.tiny#save Save
+    #controlPanel
+      #controls
+        input#name(type='text', placeholder='name...', autofocus='true')
+        input#value(type='text', placeholder='value...')
+        #new New Priority
+        button.tiny#save Save
 
-    #priority
-      #tname Name
-      #tvalue Value
-      #delete Delete
-      #edit -----
+      #todoControls
+        #newT New Todo
+        input#nameTodo(type='text', placeholder='name...', autofocus='true')
+        select#priorityName
+        input#dateDue(type='date', name='dueDate')
+        input#tagsName(type='text', placeholder='fun, house, work')
+        button.tiny#saveTodo Add
+
+      #priority
+        #tname Name
+        #tvalue Value
+        #delete Delete
+        #edit -----
+      #panelLabel Control Panel
+      #panelLabelOut Control Panel
 
     #todoList
+      #sortComp Sort
+      #sortDue Sort
+      #sortPrior Sort
       #isComplete Completed
       #todoName Name
       #dueDate Due Date
       #Priority Priority
       #tags Tags
-      #tags ModifyZZ
-
-    #todoControls
-      input#nameTodo(type='text', placeholder='name...', autofocus='true')
-      select#priorityName
-      input#dateDue(type='text', placeholder='MM/DD/YYYY')
-      input#tagsName(type='text', placeholder='fun, house, work')
-      button.tiny#saveTodo Add
+      #del Delete
+      #page1 <
+      #page2 >
+      #seeAll See All
+      #seeFive Back
 
     script(src='/js/vendor/jquery.js')
     script(src='/js/vendor/foundation.js')

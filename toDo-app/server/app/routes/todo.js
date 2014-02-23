@@ -14,10 +14,55 @@ exports.create = function(req, res){
   });
 };
 
+exports.query = function(req, res){
+  debugger;
+  var db = req.app.locals.db;
+  var todos = db.collection('todos');
+  todos.find(req.query).toArray(function(err, records){
+    res.send({records:records});
+  });
+};
+
+exports.skip = function(req, res){
+  init();
+  console.log(req.params.skip);
+  var x = req.params.skip;
+
+  Todo.skip(x, function(todos){
+    res.send({todos:todos});
+  });
+};
+
+exports.sortDate = function(req, res){
+  init();
+  Todo.findDate(function(todos){
+    res.send({todos:todos});
+  });
+};
+
+exports.indexAll = function(req, res){
+  init();
+  Todo.indexAll(function(todos){
+    res.send({todos:todos});
+  });
+};
+
+exports.findPriority = function(req, res){
+  init();
+  console.log(req.params.priority);
+  var x = req.params.priority;
+
+  Todo.findPriority(x, function(todos){
+    res.send({todos:todos});
+  });
+};
+
 exports.index = function(req, res){
   init();
+  console.log(req.params.limit);
+  var x = req.params.limit;
 
-  Todo.findAll(function(todos){
+  Todo.findAll(x, function(todos){
     res.send({todos:todos});
   });
 };

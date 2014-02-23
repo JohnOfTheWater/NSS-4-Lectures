@@ -1,27 +1,81 @@
+@import url('http://fonts.googleapis.com/css?family=Allan');
 body {
   background: url('http://www.a-gassociates.com/images/background.jpg');
   background-size: cover;
 }
+#controlPanel {
+  float: left;
+  margin: 0px 0px 0px -529px;
+}
+#panelLabel {
+  padding: 4px 0px 0px 0px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border-left: 1px solid #ebe5e5;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 150px 0px 0px -40px;
+  width: 60px;
+  height: 40px;
+  float: left;
+  position: relative;
+  top: 0px;
+  left: 39px;
+  text-align: center;
+}
+#panelLabelOut {
+  padding: 4px 0px 0px 0px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border-left: 1px solid #ebe5e5;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 150px 0px 0px -40px;
+  width: 60px;
+  height: 40px;
+  float: left;
+  position: relative;
+  top: 0px;
+  left: 39px;
+  text-align: center;
+}
 #controls {
   padding: 10px 0px 0px 10px;
-  box-shadow: 10px 0px 5px #888;
   background-color: rgba(235, 229, 229, 0.7);
-  border: 1px solid white;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   margin: 30px 0px 0px 30px;
-  width: 332px;
-  height: 112px;
+  width: 182px;
+  height: 161px;
   float: left;
 }
+#new {
+  width: 50px;
+  float: left;
+  margin: -11px 0px 0px 2px;
+  font-size: 23px;
+  text-shadow: 1px 1px #ffffff, -1px -1px #ffffff;
+}
+#newT {
+  width: 130px;
+  float: left;
+  margin: 5px 0px -45px 4px;
+  font-size: 28px;
+  text-shadow: 1px 1px #ffffff, -1px -1px #ffffff;
+}
 #name {
-  width: 200px;
+  width: 160px;
 }
 #value {
-  width: 200px;
+  width: 160px;
 }
 #save {
   width: 80px;
   height: 50px;
-  margin: -85px 20px 0px 20px;
+  margin: -12px 11px 0px 0px;
   float: right;
   font-size: 15px;
 }
@@ -30,10 +84,12 @@ body {
   min-width: 465px;
   min-height: 130px;
   font-size: 20px;
-  margin: 141px 0px 0px -332px;
+  margin: 190px 0px 0px -508px;
   box-shadow: 10px 10px 5px #888;
   background-color: rgba(235, 229, 229, 0.7);
-  border: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
   float: left;
 }
 #tname {
@@ -73,83 +129,218 @@ body {
 }
 .edit {
   border: 1px solid white;
-  margin: 10px 0px 0px 0px;
+  margin: 7px 0px 0px 0px;
   padding: 1px 1px 1px 1px;
   background-color: #B22222;
   color: white;
 }
 #todoList {
   padding: 5px 0px 0px 30px;
-  min-width: 465px;
-  min-height: 130px;
-  font-size: 20px;
-  margin: 50px 0px 0px 300px;
+  min-width: 865px;
+  min-height: 188px;
+  font-size: 25px;
+  margin: 150px 0px 0px 200px;
   box-shadow: 10px 10px 5px #888;
-  background-color: rgba(235, 229, 229, 0.7);
-  border: 1px solid white;
+  background: url('https://scontent-a.xx.fbcdn.net/hphotos-ash3/t1/1507112_735169429835589_614172284_n.jpg');
+  background-size: cover;
+  border: 2px solid white;
   float: left;
+  position: absolute;
+  font-family: 'Allan', cursive;
 }
 #isComplete {
-  margin: 5px 45px 0px 0px;
+  margin: -4px 45px 0px 0px;
   float: left;
 }
 #todoName {
-  margin: 5px 45px 0px 0px;
+  margin: -4px 45px 0px 0px;
   float: left;
 }
 #dueDate {
-  margin: 5px 45px 0px 0px;
   float: left;
+  margin: -4px 45px 0px 0px;
 }
 #Priority {
-  margin: 5px 45px 0px 0px;
   float: left;
+  margin: -4px 45px 0px 0px;
 }
 #tags {
-  margin: 5px 45px 0px 0px;
   float: left;
+  margin: -4px 45px 0px 0px;
+}
+#del {
+  float: left;
+  margin: -4px 45px 0px 0px;
 }
 #todoControls {
   padding: 10px 0px 0px 10px;
-  box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 0px 5px #888;
   background-color: rgba(235, 229, 229, 0.7);
   border: 1px solid white;
-  margin: 200px 0px 0px -730px;
-  width: 332px;
+  margin: 30px 0px 0px -1px;
+  width: 327px;
   height: 160px;
   float: left;
 }
 #nameTodo {
-  margin: 0px 0px 0px 0px;
-  width: 150px;
+  margin: 0px 0px 0px 143px;
+  width: 160px;
   float: left;
 }
 #dateDue {
-  margin: 50px 0px 12px 0px;
-  width: 109px;
+  margin: -37px 0px 12px 0px;
+  width: 160px;
+  float: left;
 }
 #priorityName {
-  margin: 0px 0px 0px 10px;
-  width: 150px;
+  margin: 14px 0px 0px 164px;
+  width: 138px;
   float: left;
 }
 #tagsName {
-  margin: -49px 0px 0px 120px;
-  width: 190px;
+  float: left;
+  margin: 0px 0px 0px -1px;
+  width: 200px;
 }
 #saveTodo {
-  width: 310px;
-  height: 50px;
-  margin: 5px 10px 0px 0px;
+  width: 98px;
+  height: 40px;
+  margin: -1px 10px 0px 0px;
   float: right;
   font-size: 15px;
 }
-.x {
-  width: 15px;
+.x1 {
+  width: 17px;
   border: 1px solid white;
-  padding: 1px 1px 1px 1px;
+  padding: 0px 0px 0px 3px;
   background-color: #B22222;
   color: white;
-  margin: 0px 0px 0px 2px;
+  margin: 5px 0px 0px 0px;
+}
+.notComplete {
+  background: url('http://www.clker.com/cliparts/e/q/p/N/s/G/checkbox-unchecked-md.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin: 12px 0px 0px 20px;
+}
+.Complete {
+  background: url('http://www.ksoueducation.org/images/checkbox_checked1.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin: 12px 0px 0px 20px;
+}
+.todoName {
+  margin: 7px 0px 0px 0px;
+}
+.dueDate {
+  margin: 7px 0px 0px 0px;
+}
+.Priority {
+  margin: 7px 0px 0px 0px;
+}
+.tags {
+  margin: 7px 0px 0px 0px;
+}
+#sortComp {
+  padding: 0px 0px 0px 0px;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  border-bottom: #ebe5e5;
+  margin: -30px 0px 0px 0px;
+  width: 70px;
+  height: 25px;
+  float: left;
+  position: relative;
+  top: 0px;
+  left: 440px;
+  text-align: center;
+}
+#sortDue {
+  padding: 0px 0px 0px 0px;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  border-bottom: #ebe5e5;
+  margin: -30px 0px 0px 0px;
+  width: 70px;
+  height: 25px;
+  float: left;
+  position: relative;
+  top: 0px;
+  left: 287px;
+  text-align: center;
+}
+#sortPrior {
+  padding: 0px 0px 0px 0px;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  border-bottom: #ebe5e5;
+  margin: -30px 0px 0px 0px;
+  width: 70px;
+  height: 25px;
+  float: left;
+  position: relative;
+  top: 0px;
+  left: 287px;
+  text-align: center;
+}
+#page1 {
+  padding: 0px 0px 0px 0px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  border-top: #ebe5e5;
+  margin: 0px 0px 0px -200px;
+  width: 70px;
+  height: 25px;
+  float: left;
+  position: relative;
+  top: 181px;
+  left: -650px;
+  text-align: center;
+}
+#page2 {
+  padding: 0px 0px 0px 0px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border: 1px solid white;
+  border-top: #ebe5e5;
+  margin: 0px 0px 0px -200px;
+  width: 70px;
+  height: 25px;
+  float: left;
+  position: relative;
+  top: 181px;
+  left: -575px;
+  text-align: center;
+}
+#seeAll {
+  padding: 0px 0px 0px 20px;
+  box-shadow: 10px 10px 5px #888;
+  background-color: rgba(235, 229, 229, 0.7);
+  border-top: #ebe5e5;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 0px 0px 0px -300px;
+  width: 100px;
+  position: relative;
+  top: 181px;
+  left: 320px;
+  float: left;
+}
+#seeFive {
+  padding: 0px 0px 0px 20px;
+  background-color: rgba(235, 229, 229, 0.7);
+  border-top: #ebe5e5;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  margin: 0px 0px 0px -300px;
+  width: 100px;
+  position: relative;
+  top: -31px;
+  left: 320px;
   float: left;
 }

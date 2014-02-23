@@ -40,7 +40,7 @@ Todo.findByName = function(name, fn){
   });
 };
 
-Todo.findAll = function(fn){
+Todo.indexAll = function(fn){
   todos.find().toArray(function(err, records){
     fn(records);
   });
@@ -75,4 +75,39 @@ Todo.findByTag = function(tag, fn){
   todos.find({tags:{$in: [tag] }}).toArray(function(err, records){
     fn(records);
   });
+};
+
+Todo.skip = function(skip, fn){
+  console.log(skip);
+  skip = parseInt(skip);
+  todos.find().skip(skip).limit(5).toArray(function(err, records){
+    fn(records);
+  });
+};
+
+Todo.findPriority = function(x,fn){
+  todos.find({priority_id: x}).limit(5).toArray(function(err, records){
+    fn(records);
+  });
+};
+
+Todo.findDate = function(fn){
+  todos.find().sort({dueDate:1}).limit(5).toArray(function(err, records){
+    fn(records);
+  });
+};
+
+Todo.findAll = function(limit, fn){
+  debugger;
+  console.log(limit);
+  limit = parseInt(limit);
+  if (!limit){
+    todos.find().toArray(function(err, records){
+      fn(records);
+    });
+  }else{
+    todos.find().limit(limit).toArray(function(err, records){
+      fn(records);
+    });
+  }
 };

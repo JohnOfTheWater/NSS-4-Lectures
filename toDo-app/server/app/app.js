@@ -21,10 +21,14 @@ app.use(express.methodOverride());
 app.use(app.router);
 
 app.get('/', d, home.index);
+app.get('/todosdate', d, todo.sortDate);
 app.post('/priorities', d, priorities.create);
 app.post('/todos', d, todo.create);
 app.get('/priorities', d, priorities.index);
-app.get('/todos', d, todo.index);
+app.get('/todos/:limit', d, todo.index);
+app.get('/todosp/:priority', d, todo.findPriority);
+app.get('/todosall', d, todo.indexAll);
+app.get('/todospage/:skip', d, todo.skip);
 app.get('/priorities/:id', d, priorities.show);
 app.put('/priorities/:id', d, priorities.update);
 app.del('/priorities/:id', d, priorities.destroy);

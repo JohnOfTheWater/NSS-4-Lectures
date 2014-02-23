@@ -1,6 +1,7 @@
 'use strict';
 
 var Priority;
+var Mongo = require('mongodb');
 
 exports.create = function(req, res){
   init();
@@ -30,7 +31,11 @@ exports.show = function(req, res){
 exports.update = function(req, res){
   init();
 
-  var priority = new Priority(req.body);
+  var id = new Mongo.ObjectID(req.params.id);
+  var name = req.body.name;
+  var value = req.body.value;
+
+  var priority = new Priority({_id:id, name:name, value:value});
   priority.save(function(){
     res.send(priority);
   });
