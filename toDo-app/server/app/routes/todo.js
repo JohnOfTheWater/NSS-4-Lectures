@@ -109,6 +109,16 @@ exports.destroy = function(req, res){
   });
 };
 
+exports.nextPage = function(req, res){
+  init();
+  console.log(req.params.page);
+  var x = req.params.page;
+
+  Todo.next(x, function(todos){
+    res.send({todos:todos});
+  });
+};
+
 function init(){
   Todo = global.nss.Todo;
 }

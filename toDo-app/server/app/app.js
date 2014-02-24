@@ -29,6 +29,7 @@ app.get('/todos/:limit', d, todo.index);
 app.get('/todosp/:priority', d, todo.findPriority);
 app.get('/todosall', d, todo.indexAll);
 app.get('/todospage/:skip', d, todo.skip);
+app.get('/todospages/:page', d, todo.nextPage);
 app.get('/priorities/:id', d, priorities.show);
 app.put('/priorities/:id', d, priorities.update);
 app.del('/priorities/:id', d, priorities.destroy);

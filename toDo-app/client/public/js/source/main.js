@@ -34,6 +34,7 @@
   }
 
   var todosArray = [];
+  var counter = 0;
 
   //-------Control Panel Animation-----------------//
 
@@ -54,7 +55,7 @@
 
 
 
-  //-------Filter Todo----------//
+  //-------Filter Priority----------//
 
   function filterPriority(){
     debugger;
@@ -63,6 +64,9 @@
     var url = window.location.origin.replace(/[0-9]{4}/, '4000') + '/todosp/' + priority;
     console.log(priority);
     $.getJSON(url, displayTodos);
+    $('#page1').hide();
+    $('#page2').hide();
+    $('#seeAll').hide();
   }
 
   //-------delete Todo----------//
@@ -145,6 +149,7 @@
   function getTodos(){
     var url = window.location.origin.replace(/[0-9]{4}/, '4000') + '/todos/'+5;
     $.getJSON(url, displayTodos);
+    counter = 0;
     $('#seeFive').hide();
     $('#page1').show();
     $('#page2').show();
@@ -154,7 +159,12 @@
   }
 
   function nextPage(){
-    var url = window.location.origin.replace(/[0-9]{4}/, '4000') + '/todospage/'+5;
+    debugger;
+    if(counter === 15){
+      counter = 0;
+    }
+    counter += 5;
+    var url = window.location.origin.replace(/[0-9]{4}/, '4000') + '/todospages/'+counter;
     $.getJSON(url, displayTodos);
   }
 
@@ -219,9 +229,9 @@
 
   function sortDueDate(){
     debugger;
-    $('#page1').show();
-    $('#page2').show();
-    $('#seeAll').show();
+    $('#page1').hide();
+    $('#page2').hide();
+    $('#seeAll').hide();
     $('#seeFive').hide();
     $('#sortDue').hide();
     $('#sortPrior').show();

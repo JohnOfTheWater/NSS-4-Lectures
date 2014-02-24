@@ -85,14 +85,22 @@ Todo.skip = function(skip, fn){
   });
 };
 
+Todo.next = function(page, fn){
+  page = parseInt(page);
+  console.log(page);
+  todos.find().skip(page).limit(5).toArray(function(err, records){
+    fn(records);
+  });
+};
+
 Todo.findPriority = function(x,fn){
-  todos.find({priority_id: x}).limit(5).toArray(function(err, records){
+  todos.find({priority_id: x}).limit(10).toArray(function(err, records){
     fn(records);
   });
 };
 
 Todo.findDate = function(fn){
-  todos.find().sort({dueDate:1}).limit(5).toArray(function(err, records){
+  todos.find().sort({dueDate:1}).limit(10).toArray(function(err, records){
     fn(records);
   });
 };
