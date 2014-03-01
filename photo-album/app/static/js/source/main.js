@@ -7,6 +7,8 @@
   function initialize(){
     $(document).foundation();
     $('#deletePanel').hide();
+    $('#addPanel').hide();
+    $('#newAlbum').click(addPanel);
     $('#delete').click(deletePanel);
     $('#deletePanel').on('click', '.title', deleteAlbum);
     getAlbums();
@@ -17,10 +19,19 @@
 //----------Animation-------------------/
 
   function deletePanel(){
+    $('#addPanel').hide();
     $('#deletePanel').fadeToggle('slow');
   }
 
-//-------delete Todo----------//
+  function addPanel(){
+    $('#deletePanel').hide();
+    $('#addPanel').fadeToggle('slow');
+  }
+
+//-------Add Album------------------------------//
+
+
+//-------delete Album----------//
 
   function deleteAlbum(){
     var id = $(this).data('id');

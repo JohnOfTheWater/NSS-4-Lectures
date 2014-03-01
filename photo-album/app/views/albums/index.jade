@@ -12,11 +12,17 @@ html(class='no-js', lang='en')
   body
     h1=title
     #controls
-      a.button.tiny.radius#newAlbum(href='/albums/new') New Album
-      a.button.tiny.radius#delete Delete Album
+      .button.tiny.radius#newAlbum(href='/albums/new') New Album
+      .button.tiny.radius#delete Delete Album
     #deletePanel
-      #title TITLE
+      #title DELETE ALBUM
       //#del DELETE
+    #addPanel
+      #new NEW ALBUM
+      input(type='text', placeholder='title')#addTitle
+      input(type='date')#addDate
+      input(type='file')#file
+      .button.small.radius#create Create
     .row
       .small-12.columns
         each album in albums
