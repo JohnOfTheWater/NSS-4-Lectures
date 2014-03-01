@@ -38,7 +38,7 @@ Priority.deleteById = function(id, fn){
 };
 
 Priority.findAll = function(fn){
-  priorities.find().toArray(function(err, records){
+  priorities.find().limit(3).toArray(function(err, records){
     fn(records);
   });
 };

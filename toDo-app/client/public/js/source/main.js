@@ -29,8 +29,8 @@
     $('#todoList').on('click', '.Priority', filterPriority);
     $('#priority').on('click', '.name', hideName);
     $('#priority').on('click', '.edit', editPriority);
-    getPriorities();
     getTodos();
+    getPriorities();
   }
 
   var todosArray = [];
@@ -41,16 +41,22 @@
   function showPanel(){
     $('#panelLabel').hide();
     $('#panelLabelOut').show();
-    $('#todoList').animate({margin:'+450 +0 +0 +200'});
-    $('#controlPanel').delay(500).animate({margin:'+0 +0 +0 +0'});
+    $('#todoList').animate({margin:'+350 +0 +0 +0'},800);
+    $('#page1').animate({margin:'+350 +0 +0 +0'},800);
+    $('#page2').animate({margin:'+350 +0 +0 +0'},800);
+    $('#seeAll').animate({margin:'+350 +0 +0 +0'},800);
+    $('#controlPanel').delay(500).animate({margin:'+0 +0 +0 +525'},800);
     $('#nameTodo').focus();
   }
 
   function hidePanel(){
     $('#panelLabel').show();
     $('#panelLabelOut').hide();
-    $('#controlPanel').animate({margin:'+0 +0 +0 -529'});
-    $('#todoList').delay(500).animate({margin:'+150 +0 +0 +200'});
+    $('#controlPanel').animate({margin:'+0 +0 +0 +0'},800);
+    $('#page1').delay(500).animate({margin:'+0 +0 +0 +0'},800);
+    $('#page2').delay(500).animate({margin:'+0 +0 +0 +0'},800);
+    $('#seeAll').delay(500).animate({margin:'+0 +0 +0 +0'},800);
+    $('#todoList').delay(500).animate({margin:'+0 +0 +0 +0'},800);
   }
 
 
